@@ -3,25 +3,25 @@
 
 #define TOPIC "BitFields"
 
-void Feature_BitFiels_DeafultMemberInitialization()
+void Feature_BitFields_DeafultMemberInitialization()
 {
-
-  demo_start("BitFieldDeafultMemberInitialization");
+  const std::string FEATURE_NAME = "BitFieldsDeafultMemberInitialization";
+  demo_start(FEATURE_NAME);
   struct
   {
     int x : 8 = 42;
   } bitfield_demo_struct;
 
   std::cout << "\tValue of BitField:" << bitfield_demo_struct.x << std::endl;
-  demo_end("BitFieldDeafultMemberInitialization");
+  demo_end(FEATURE_NAME);
 }
 
-void Feature_BitFiels_MAX_Munch_Rule()
+void Feature_BitFields_MAX_Munch_Rule()
 {
-
-  demo_start("Feature_BitFiels_MAX_Munch_Rule");
+  const std::string FEATURE_NAME = "Feature_BitFiedls_MAX_Munch_Rule";
+  demo_start(FEATURE_NAME);
   std::cout << "\tDemo Under construction" << std::endl;
-  demo_end("Feature_BitFiels_MAX_Munch_Rule");
+  demo_end(FEATURE_NAME);
 }
 
 int main(int argc, char *argv[])

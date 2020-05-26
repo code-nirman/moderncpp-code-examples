@@ -1,4 +1,3 @@
-cmake_minimum_required(VERSION 2.6)
 project (bitfields)
  
 set (PROJECT_INCLUDE_DIR ${PROJECT_SOURCE_DIR}/include)
