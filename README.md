@@ -9,3 +9,4 @@ Table of Contents. (More features coming)
 | C++20 | Lambda | Capture 'this' vs capture \*this | Yes | 1.lambda capture [this] 2. capture [\*this] \*this capture should be used with NUMA friendly & async code. |
 | C++20 | Concurrency | Latches | Coming soon |  |
 | C++20 | Concepts | TBD | Coming soon |  |
+| C++17 | Parallel loops | TBD | Coming soon |  |
