@@ -6,6 +6,6 @@ Table of Contents. (More features coming)
 | ------------- | ------------- | ------------- | ------------- | ------------- |
 | C++20 | Bitfields | Default initialization | Yes |  |
 | C++20 | Bitfields | Max Munch Rule | Coming soon |  |
-| C++20 | Lambda | Capture 'this' | Coming soon | 1.lambda capture [this] 2. capture [\*this] \*this capture should be used with NUMA friendly & async code. |
+| C++20 | Lambda | Capture 'this' | Yes | 1.lambda capture [this] 2. capture [\*this] \*this capture should be used with NUMA friendly & async code. |
 | C++20 | Concurrency | Latches | Coming soon |  |
 | C++20 | Concepts | TBD | Coming soon |  |
